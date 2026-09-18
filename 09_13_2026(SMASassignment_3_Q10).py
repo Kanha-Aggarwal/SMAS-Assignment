@@ -23,7 +23,7 @@ e2 = np.array([[0],
 
 
 #importing image by making an object variable and converting it into an array.
-image_path = "C:\\Users\\HP\\OneDrive\\UNIFIED ENGINEERING SEM 1\\PYTHON\\HareKrishna.jpg"
+image_path = input("Enter the file location (Make sure not to use double quotes and make single slashes to double): ")
 img = im.open(image_path)
 img_ary = np.array(img)
 

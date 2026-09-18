@@ -10,7 +10,7 @@ n2 = 1
 
 rotate_ccw = np.array([[0, -1], [1, 0]])
 rotate_cw = np.array([[0, 1], [-1, 0]])
-resize = np.array([[n1, 0], [0, n2]])
+resize = np.array([[0.5, 0], [0, 3]])
 flip_x = np.array([[1,0],[0,-1]])
 flip_y = np.array([[-1, 0], [0, 1]])
 shear = np.array([[1, 1], [0, 1]])
